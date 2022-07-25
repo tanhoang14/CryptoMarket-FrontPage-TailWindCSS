@@ -15,7 +15,7 @@ const NavBar = (props) => {
     return (  
         <nav className="flex item-center">
             <div className="flex item-center">
-                <div className="text-20 font-bold mr-2">CrytoPeople</div>
+                <div className="text-20 font-bold mr-2">CryptoPeople</div>
                 {isDarkMode ? (
                 <RiCopperCoinLine size={"24px"} color={"#e9c46a"} className="cursor-pointer" onClick={()=>toggleDarkMode(!isDarkMode)}/>
 
